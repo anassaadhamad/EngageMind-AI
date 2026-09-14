@@ -53,6 +53,10 @@ class LinkedInScanner:
                 logger.error(f"Live LinkedIn scan failed: {ex}. Falling back to sample candidates.")
                 candidates = self._get_curated_sample_candidates()
 
+            if not candidates:
+                logger.info("ℹ️ Live scan returned 0 posts (session expired or selector mismatch). Falling back to curated sample candidates.")
+                candidates = self._get_curated_sample_candidates()
+
         # Filter out already engaged posts
         unengaged = []
         for post in candidates:
@@ -98,7 +102,7 @@ class LinkedInScanner:
             context.add_cookies([{
                 "name": "li_at",
                 "value": settings.linkedin_li_at,
-                "domain": ".www.linkedin.com",
+                "domain": ".linkedin.com",
                 "path": "/"
             }])
 
