@@ -13,9 +13,9 @@ class EngageMindSettings(BaseModel):
 
     # 2. AI Model & API Configuration
     anthropic_api_key: Optional[str] = os.getenv("ANTHROPIC_API_KEY")
-    anthropic_model: str = os.getenv("ENGAGEMIND_ANTHROPIC_MODEL", "claude-3-7-sonnet-20250219")
+    anthropic_model: str = os.getenv("ENGAGEMIND_ANTHROPIC_MODEL", "claude-sonnet-5")
     openrouter_api_key: Optional[str] = os.getenv("OPENROUTER_API_KEY")
-    openrouter_model: str = os.getenv("ENGAGEMIND_OPENROUTER_MODEL", "anthropic/claude-3.7-sonnet")
+    openrouter_model: str = os.getenv("ENGAGEMIND_OPENROUTER_MODEL", "anthropic/claude-sonnet-5")
     llm_provider: str = os.getenv("ENGAGEMIND_LLM_PROVIDER", "auto")
 
     # 3. Telegram HITL Notification Studio
