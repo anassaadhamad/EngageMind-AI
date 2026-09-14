@@ -1,0 +1,17 @@
+# Environment & Tokens
+.env
+.env.local
+
+# Databases
+*.db
+data/*.db
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store

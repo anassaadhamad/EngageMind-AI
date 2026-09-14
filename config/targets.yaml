@@ -1,0 +1,38 @@
+# EngageMind AI — Target Discovery Matrix
+
+# 1. High-Impact Topics & Keywords to track on LinkedIn
+target_keywords:
+  - "Generative AI"
+  - "LLM inference"
+  - "vLLM"
+  - "Agentic workflows"
+  - "Multi-agent systems"
+  - "RAG production"
+  - "Distributed systems"
+  - "System design architecture"
+  - "Open source AI models"
+  - "Claude 3.7"
+  - "DeepSeek architecture"
+
+# 2. Target Hashtags
+target_hashtags:
+  - "#GenerativeAI"
+  - "#MachineLearning"
+  - "#ArtificialIntelligence"
+  - "#SoftwareEngineering"
+  - "#SystemDesign"
+  - "#DeepLearning"
+  - "#LLMs"
+
+# 3. Influential AI Engineers, Researchers & Tech Leaders Watchlist
+watchlist_influencers:
+  - name: "Andrej Karpathy"
+    focus: "Neural Networks, LLM Training & Software 2.0"
+  - name: "Simon Willison"
+    focus: "Local LLMs, Web Engineering & Prompt Injection"
+  - name: "Chip Huyen"
+    focus: "AI Engineering, ML System Design & Real-time RAG"
+  - name: "Swyx (Shawn Wang)"
+    focus: "AI Engineering & Latent Space"
+  - name: "Harrison Chase"
+    focus: "Agents, LangGraph & Orchestration"
